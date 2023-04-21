@@ -1,0 +1,35 @@
+body {
+  background-color: #f19fa8;
+  color: #2a2a63;
+}
+
+.work-exp {
+  flex-direction: column;
+}
+
+.margin-desktop {
+  margin: 20px 0;
+}
+
+.skills-svg svg {
+  margin: 0 10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .work-exp {
+    flex-direction: row;
+  }
+
+  .border-right {
+    border-right: 3px solid #2a2a63;
+  }
+
+  .margin-desktop {
+    margin: 40px 0;
+  }
+}
